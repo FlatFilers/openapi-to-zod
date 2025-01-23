@@ -1,0 +1,20 @@
+{
+  "name": "@flatfile/openapi-to-zod",
+  "version": "1.0.0",
+  "description": "Converts OpenAPI specs to Zod schemas",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsup index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.10.10",
+    "change-case": "^5.4.4",
+    "typescript": "^5.7.3",
+    "yaml": "^2.7.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5"
+  }
+}
